@@ -6,3 +6,8 @@ sky:
     database: sky_take_out
     username: root
     password: 040428
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    accessKeyId: LTAI5tPo64eQpmDfubFfiALA
+    accessKeySecret: IKZv8D1gsy9TGDsTpzYsK1f7CoiKnf
+    bucketName: web-qrd-study-springboot
