@@ -11,3 +11,8 @@ sky:
     accessKeyId: LTAI5tPo64eQpmDfubFfiALA
     accessKeySecret: IKZv8D1gsy9TGDsTpzYsK1f7CoiKnf
     bucketName: web-qrd-study-springboot
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
