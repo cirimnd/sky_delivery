@@ -53,3 +53,7 @@ sky:
   wechat:
     appid: ${sky.wechat.appid}
     secret: ${sky.wechat.secret}
+  shop:
+    address: 广州市海珠区新港西路182号
+  baidu:
+    ak:
