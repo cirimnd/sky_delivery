@@ -5,9 +5,15 @@ import com.sky.vo.SalesTop10ReportVO;
 import com.sky.vo.TurnoverReportVO;
 import com.sky.vo.UserReportVO;
 
+import javax.servlet.http.HttpServletResponse;
 import java.time.LocalDate;
 
 public interface ReportService {
+    /**
+     * 导出运营数据表
+     * @param response
+     */
+    void exportBusinessData(HttpServletResponse response);
 
     /**
      * 统计指定时间区间内的营业额数据
